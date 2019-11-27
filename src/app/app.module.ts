@@ -23,7 +23,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ListarUsuarioComponent } from './listar-usuario/listar-usuario.component';
+// import { ListarUsuarioComponent } from './listar-usuario/listar-usuario.component';
 import { UsuarioComponent } from './listar-usuario/usuario/usuario.component';
 
 @NgModule({
@@ -43,7 +43,7 @@ import { UsuarioComponent } from './listar-usuario/usuario/usuario.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    ListarUsuarioComponent,
+    // ListarUsuarioComponent,
     UsuarioComponent,
 
   ],

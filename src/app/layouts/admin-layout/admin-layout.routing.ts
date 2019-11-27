@@ -1,3 +1,4 @@
+import { ListarUsuarioComponent } from './../../listar-usuario/listar-usuario.component';
 import { Routes } from '@angular/router';
 
 import { DashboardComponent } from '../../dashboard/dashboard.component';
@@ -60,4 +61,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
+    { path: 'listar-usuario', component: ListarUsuarioComponent },
+
 ];
